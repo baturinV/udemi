@@ -15,7 +15,7 @@ const NewExpenseForm = (props) => {
         const formData = {
             id: Math.random().toString(),
             title: enteredTitle,
-            amount: enteredAmount,
+            amount: +enteredAmount,
             date: new Date(eneteredDate),
         };
 

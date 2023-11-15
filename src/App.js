@@ -37,10 +37,10 @@ const App = () => {
     ]);
 
     return (
-        <>
+        <div>
             <NewExpense onSetExpenses={setExpenses} />
             <Expenses data={expenses} />
-        </>
+        </div>
     );
 };
 
